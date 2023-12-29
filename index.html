@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Animate-Portfolio-mrdc48m | Chetan Dhotre</title>
+    <meta charset="UTF-8" />
+    <meta name="theme-color" content="#e92020" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="navHeader">
+      <div class="navSection">
+        <div class="hamburger">
+          <div class="bar topLine"></div>
+          <div class="bar btmLine"></div>
+        </div>
+      </div>
+      <!-- <img class=logoImage
+      src=https://pspm-portfolio.vercel.app/images/logo_image.jpg alt=""> -->
+      <div class="menuTabs">
+        <li class="menuLinks"><a href="new.html">home</a></li>
+        <li class="menuLinks"><a href="portfolio.html">portfolio</a></li>
+        <li class="menuLinks"><a href="services.html">services</a></li>
+        <li class="menuLinks"><a href="AboutUs.html">about us</a></li>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="sticky">
+        <h1 class="text-1">
+          NSSDCA ID: CHANDRYN3 Chandrayaan 3 is an ISRO (Indian Space Research
+          Organization) mission with the primary objective of putting a lander
+          and rover in the highlands near the south pole of the Moon on 23
+          August 2023 and demonstrating end-to-end landing and roving
+          capabilities. It will also make a number of scientific measurements on
+          the surface and from orbit. It comprises a lander/rover and a
+          propulsion module. The lander/rover will be similar to the Vikram
+          rover on Chandrayaan 2, with improvements to help ensure a safe
+          landing.
+        </h1>
+      </div>
+    </div>
+
+    <div class="second-container">
+      <p class="first-text">Cascading</p>
+      <p class="second-text">
+        Style Sheets is a style sheet language used for describing the
+        presentation of a document written in a markup language such as HTML.
+        CSS is a cornerstone technology of the World Wide Web, alongside HTML
+        and JavaScript. Cascading Style Sheets is a style sheet language used
+        for describing the presentation of a document written in a markup
+        language such as HTML. CSS is a cornerstone technology of the World Wide
+        Web, alongside HTML and JavaScript.
+      </p>
+    </div>
+
+    <h3 class="aside-text">
+      In publishing and graphic design, Lorem ipsum is a placeholder text
+      commonly used to demonstrate the visual form of a document or a typeface
+      without relying on meaningful content. Lorem ipsum may be used as a
+      placeholder before final copy is available. In publishing and graphic
+      design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+      visual form of a document or a typeface without relying on meaningful
+      content. In publishing and graphic design, Lorem ipsum is a placeholder
+      text commonly used to demonstrate the visual form of a document or a
+      typeface without relying on meaningful content. In publishing and graphic
+      design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+      visual form of a document or a typeface without relying on meaningful
+      content. In publishing and graphic design, Lorem ipsum is a placeholder
+      text commonly used to demonstrate the visual form of a document or a
+      typeface without relying on meaningful content. In publishing and graphic
+      design, Lorem ipsum is a placeholder text commonly used to demonstrate the
+      visual form of a document or a typeface without relying on meaningful
+      content.
+    </h3>
+    <div class="sample"></div>
+    <div class="native">
+      <li class="child">4</li>
+      <li class="child">4</li>
+      <li class="child">4</li>
+      <li class="child">4</li>
+    </div>
+    <script>
+      !(function () {
+        var e = document.querySelector('.hamburger'),
+          t = document.querySelector('.navHeader');
+        e.onclick = function () {
+          t.classList.toggle('menu-opened');
+        };
+      })(),
+        document.addEventListener('scroll', () => {
+          let e = document.querySelector('.navHeader');
+          window.scrollY > 0
+            ? e.classList.add('scroll')
+            : e.classList.remove('scroll');
+        });
+
+
+        var maindiv = document.querySelector('.native'); 
+    var count = maindiv.querySelectorAll(".child").length;
+    console.log("Number of elements: " + count);
+    </script>
+  </body>
+</html>
+
+
+
